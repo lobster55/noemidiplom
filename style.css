@@ -1,0 +1,352 @@
+body {
+    margin:0;
+}
+
+.conteiner {
+    position: relative;
+    width: 1660px;
+    height: 2000px;
+    margin: 0 auto;
+}
+
+/* Здесь начинается шапка */
+
+.welcome-title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 45px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+    width: 680px;
+    position: absolute;
+    display: flex;
+    margin-left: 491px;
+    margin-top: 195px;
+    z-index: 3;
+}
+
+.header {
+    background-image: url(https://netology-code.github.io/html-2-diploma/sources/images/banner-bg.jpg) ;
+    height: 450px;
+    background-repeat: no-repeat;
+    background-color: white;
+}
+
+.header::after {
+    content: "";
+    background-color: #000000;
+    position: absolute;
+    height: 450px;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: 1;
+    opacity: 0.45;
+}
+
+.header-line {
+    position: relative;
+    z-index: 2;
+}
+
+.header-line {
+    width: 1170px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 35px;
+    
+}
+
+.header-logo {
+    width: 250px;
+}
+
+.nav {
+    width: 462px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-item {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Здесь заканчивается шапка */
+
+/* Здесь начинается основной контент */
+
+.basic {
+    width: 778px;
+}
+
+.basic-nav {
+    width: 1170px;
+    margin-left: 245px;
+    margin-right: 245px;
+    display: flex;
+    flex-wrap:wrap;
+}
+
+.news {
+    margin-top: 63px;
+    width: 778px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card {
+    width: 780px;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.course-info {
+    box-sizing: border-box;
+    width: 367px;
+    margin-left: 30px;
+}
+
+.course-info h1 {
+    margin-top: 0px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-transform: uppercase;
+    color: #b59f5b;
+}
+
+.course-info h3 {
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    margin-top: 15px;
+}
+
+.card-date {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 37px;
+    padding: 0px;
+}
+
+.card-date > span {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+    
+}
+
+.card-date p {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #888888;
+}
+
+.card-content {
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    text-align: start;
+    margin-top: 50px;
+}
+
+/* Здесь начинается навигация по новым постам*/
+
+.info-post {
+    width: 272px;
+    height: 1424px;
+    margin-top: 63px;
+    margin-left: 120px;
+}
+
+.info-post h4{
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+    margin: 0 0;
+}
+
+
+
+.card-mini {
+    margin-top: 26px;
+    width: 272px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+
+.card-date2  {
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+    color: #888888;
+}
+
+.card-mini h3 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+    width: 181px;
+}
+
+.card-info {
+    margin-left: 18px;
+}
+
+/* Здесь заканчивается навигация по новым постам */
+
+/* Здесь начинается поисковая строка */
+
+
+.page {
+    margin-top: 60px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.field {
+    padding-left: 10px;
+    width: 200px;
+    height: 50px;
+    border: none;
+    background-color: #ebe8e8;
+    color: #888888;
+}
+
+
+.button {
+    width: 50px;
+    height: 50px;
+    background-color: #b59f5b;
+    border-color: #b59f5b;
+}
+
+/* Здесь заканчивается поисковая строка */
+
+/* Здесь наичнается рассылка */
+
+.rassilka h4 {
+    margin-top: 62px;
+    margin-bottom: 25px;
+    
+}
+
+.field2 {
+    padding: 0px;
+    margin-top: 25px;
+    width: 272px;
+    height: 50px;
+    border: none;
+    background-color: #ebe8e8;
+}
+
+.podpiska {
+    margin-top: 15px;
+    width: 272px;
+    height: 50px;
+    border: none;
+    background-color: #b59f5b;
+}
+
+/* Здесь заканчивается рассылка */
+
+/* Здесь начинаются теги */
+
+.tegs {
+    margin-top: 62px;
+    margin-bottom: 25px;
+}
+
+.tegs-type {
+    margin-top:  10px;
+    display: inline-block;
+    word-spacing: 13px;
+    line-height: 35px;
+    
+}
+
+.tegs-type span {
+    border:1px solid #ebe8e8;
+    padding: 2px;
+    font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+}
+
+/* Здесь заканчиваются теги */
+
+/* Здесь начинаются темы */
+
+.tems-type ol{
+    list-style-type: none;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+}
+
+.tems-type li {
+    margin-top: 23px;
+}
+
+/* Здесь заканчиваются темы */
+
+/* Здесь начинается конец */
+
+.end {
+    width: 1170px;
+    height: 249px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.socials {
+    width: 367px;
+    height: 83px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 100px;
+    display: flex;
+    justify-content:space-around;
+}
+
+.pinterest {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/001-pinterest.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.tumbler {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/003-tumblr.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.twitter {
+    width: 30px;
+    height: 30px;
+    background-image: url("https://netology-code.github.io/html-2-diploma/sources/images/social/004-twitter.svg");
+    background-repeat: no-repeat;
+    background-size: 30px;
+}
+
+.date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 10px;
+    color: #888888;
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 12px;
+}
